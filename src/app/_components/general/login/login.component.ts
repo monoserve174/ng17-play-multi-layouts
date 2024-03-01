@@ -15,7 +15,10 @@ import {lastValueFrom} from "rxjs";
     FormsModule
   ],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  styleUrl: './login.component.css',
+  host: {
+    class: 'flex-fill'
+  }
 })
 export class LoginComponent {
   env = environment;

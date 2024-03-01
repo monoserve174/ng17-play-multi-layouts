@@ -8,7 +8,10 @@ import {RouterOutlet} from "@angular/router";
     RouterOutlet
   ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
+  host: {
+    class: 'flex-fill'
+  }
 })
 export class HomeComponent {
 
